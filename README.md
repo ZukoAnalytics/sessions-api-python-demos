@@ -44,3 +44,13 @@ Note: Remember to replace the example form UUID with your form UUID.
 ```bash
 ./fetch_sessions_demo.py --form-uuid 4ef0392b-dd54-42b6-ba68-4ec10f74e3de --start-time 2023-03-01T00:00:00Z --end-time 2023-04-01T00:00:00Z
 ```
+
+### Fetching total view, starter, completion and abandonment (VSCA) counts
+
+This demo script will retrieve all of the sessions for a given form, for a given time range and return a message informing you of how views, starters, completions and abandons there were for a given form and time range.
+
+This recreates the top-level stats that are shown in the Zuko application for your form.
+
+```bash
+./fetch_vsca_demo.py --form-uuid 4ef0392b-dd54-42b6-ba68-4ec10f74e3de --start-time 2023-03-01T00:00:00Z --end-time 2023-04-01T00:00:00Z
+```
