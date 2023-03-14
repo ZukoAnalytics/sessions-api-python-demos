@@ -1,4 +1,4 @@
-# Zuko Session API Demos
+# Zuko Sessions API Demos
 
 A series of demo scripts, showing how to consume the Zuko Sessions API, using Python.
 
