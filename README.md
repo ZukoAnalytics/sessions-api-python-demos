@@ -1,6 +1,6 @@
 # Zuko Sessions API Demos
 
-A series of demo scripts, showing how to consume the Zuko Sessions API, using Python.
+A series of demo scripts, showing how to consume the [Zuko Sessions API][api-docs], using Python.
 
 ## Setup
 
@@ -62,3 +62,5 @@ This demo script shows how you can handle rate limiting when retrieving sessions
 ```bash
 ./handle_rate_limit_demo.py --form-uuid 4ef0392b-dd54-42b6-ba68-4ec10f74e3de --start-time 2023-03-01T00:00:00Z --end-time 2023-04-01T00:00:00Z
 ```
+
+[api-docs]: https://docs.zuko.io/knowledge-base/sessions-api
