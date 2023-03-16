@@ -54,3 +54,11 @@ This recreates the top-level stats that are shown in the Zuko application for yo
 ```bash
 ./fetch_vsca_demo.py --form-uuid 4ef0392b-dd54-42b6-ba68-4ec10f74e3de --start-time 2023-03-01T00:00:00Z --end-time 2023-04-01T00:00:00Z
 ```
+
+### Handling rate limiting
+
+This demo script shows how you can handle rate limiting when retrieving sessions from the API.
+
+```bash
+./handle_rate_limit_demo.py --form-uuid 4ef0392b-dd54-42b6-ba68-4ec10f74e3de --start-time 2023-03-01T00:00:00Z --end-time 2023-04-01T00:00:00Z
+```
