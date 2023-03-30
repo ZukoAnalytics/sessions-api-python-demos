@@ -47,5 +47,5 @@ while next_page_id:
   sessions += batch
   params['next_page_id'] = next_page_id
 
-print('Fetched {} session(s) for form {} beween {} and {}'
+print('Fetched {} session(s) for form {} between {} and {}'
   .format(len(sessions), args.form_uuid, args.start_time, args.end_time))
